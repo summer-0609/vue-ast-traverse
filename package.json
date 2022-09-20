@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:vue-property-decorator": "ts-node ./src/vue-property-decorator/index.ts",
+    "start:vue-template": "node main.js --inspect",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,7 +22,8 @@
     "glob": "^8.0.3",
     "ts-node": "^10.8.1",
     "tslib": "^2.4.0",
-    "typescript": "^4.7.3"
+    "typescript": "^4.7.3",
+    "vue-template-compiler": "^2.7.10"
   },
   "dependencies": {
     "lodash": "^4.17.21"

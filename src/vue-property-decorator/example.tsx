@@ -13,7 +13,7 @@ export default class HelloWorld extends Vue {
   firstName = 'John'
   lastName = 'Doe'
 
-  get name() {
+  get name(): string {
     return this.firstName + ' ' + this.lastName
   }
 
